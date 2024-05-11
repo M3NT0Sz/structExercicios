@@ -9,6 +9,7 @@ public struct Equipe
     public int anoEstreia;
     public string novataVeterana;
 
+
     public Equipe(string nome, int quantidadeJogador, int campeonatosVencidos, double valorPremiacoes, int anoEstreia, string novataVeterana)
     {
         this.nome = nome;
@@ -19,25 +20,30 @@ public struct Equipe
         this.novataVeterana = novataVeterana;
     }
 
+
     public void registrarCampeonatoVencido(int valorPremio)
     {
-        campeonatosVencidos += valorPremio;
+        this.campeonatosVencidos += valorPremio;
+        for (int i = 0; i < valorPremio; i++)
+        {
+            atualizarValorTotalPremiacoes(200);
+        }
     }
 
     public void atualizarValorTotalPremiacoes(double valor)
     {
-        valorPremiacoes += valor;
+        this.valorPremiacoes += valor;
     }
 
     public void verificarAnoEstreia(int ano)
     {
         if (DateTime.Now.Year > ano)
         {
-            novataVeterana = "Veterana";
+            this.novataVeterana = "Veterano";
         }
-        else if(DateTime.Now.Year == ano)
+        else if (DateTime.Now.Year == ano)
         {
-            novataVeterana = "Novata";
+            this.novataVeterana = "Novato";
         }
     }
 
