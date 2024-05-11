@@ -32,16 +32,37 @@ using Struct;
 // Console.WriteLine(equipe1.imprimir());
 
 //Exercicio C
-Produto produto1 = new();
-produto1.nome = "Abacaxi";
-produto1.dataValidade = "15/05/2024";
-produto1.quantidade = "20";
-produto1.valor = 10;
+// Produto produto1 = new();
+// produto1.nome = "Abacaxi";
+// produto1.dataValidade = "15/05/2024";
+// produto1.quantidade = "20";
+// produto1.valor = 10;
 
-produto1.valorCupomDescontoValor = "";
-produto1.valorCupomDescontoPorcentagem = "";
+// produto1.valorCupomDescontoValor = "";
+// produto1.valorCupomDescontoPorcentagem = "";
 
-produto1.aplicarCupomDescontoValor(5.5);
-produto1.aplicarCupomDescontoPorcentagem(10);
-produto1.verificarQuantidadeEmEstoque(produto1.quantidade);
-Console.WriteLine(produto1.imprimir());
+// produto1.aplicarCupomDescontoValor(5.5);
+// produto1.aplicarCupomDescontoPorcentagem(10);
+// produto1.verificarQuantidadeEmEstoque(produto1.quantidade);
+// Console.WriteLine(produto1.imprimir());
+
+//Exercicio D
+Professor professor1 = new();
+professor1.nome = "Matheus";
+professor1.materia = "Matematica";
+professor1.cargaHoraria = 20;
+professor1.salario = 1500;
+professor1.reajusteSalarialValor = 0;
+professor1.reajusteSalarialPorcentagem = 0;
+professor1.descontoSalarialValor = 0;
+professor1.descontoSalarialPorcentagem = 0;
+professor1.aumentaCargaHoraria = 0;
+professor1.aumentaSalario = 0;
+
+professor1.reajusteSalarialEmValor(350);
+professor1.reajusteSalarialEmPorcentagem(10);
+professor1.descontoSalarialPorFaltaEmValor(2, 100);
+professor1.descontoSalarialPorFaltaEmPorcentagem(3, 10);
+professor1.aumentarCargaHorariaDeTrabalho(5, 250);
+
+Console.WriteLine(professor1.imprimir());
