@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("structExercicios")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a14315c0b3ec7092cd6b3be825a6a6530e6ca13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ea5a7ce064de0680b59ef1a70cf41db90be9365")]
 [assembly: System.Reflection.AssemblyProductAttribute("structExercicios")]
 [assembly: System.Reflection.AssemblyTitleAttribute("structExercicios")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
