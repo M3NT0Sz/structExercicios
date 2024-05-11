@@ -1,5 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
-
 namespace Struct;
 
 public struct Produto
@@ -55,7 +53,7 @@ public struct Produto
         }
         else
         {
-            this.quantidade = "Há " + quantidade + " em estoque";
+            this.quantidade = quantidade;
         }
     }
 
