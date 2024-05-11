@@ -1,0 +1,15 @@
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.AssemblyInfoInputs.cache
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.AssemblyInfo.cs
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.sourcelink.json
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\bin\Debug\net8.0\structExercicios.exe
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\bin\Debug\net8.0\structExercicios.deps.json
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\bin\Debug\net8.0\structExercicios.runtimeconfig.json
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\bin\Debug\net8.0\structExercicios.dll
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\bin\Debug\net8.0\structExercicios.pdb
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.dll
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\refint\structExercicios.dll
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.pdb
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\structExercicios.genruntimeconfig.cache
+C:\Users\Matheus\Documents\Faculdade\ED\structExercicios\obj\Debug\net8.0\ref\structExercicios.dll
