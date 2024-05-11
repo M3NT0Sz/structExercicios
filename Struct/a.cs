@@ -19,9 +19,11 @@ public struct Jogador
         this.cartaoVermelho = cartaoVermelho;
     }
 
-    public void verificarVinculoClube(string time)
+    public void verificarVinculoClube()
     {
-        this.time = time;
+        if(this.time == "" || this.time == "Não"){
+            this.time = "Jogador não tem time";
+        }
     }
     public void registrarNumeroCartoesAmarelos(int cartao)
     {
