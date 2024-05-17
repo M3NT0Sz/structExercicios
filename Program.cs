@@ -56,12 +56,6 @@ professor1.nome = "Matheus";
 professor1.materia = "Matematica";
 professor1.cargaHoraria = 20;
 professor1.salario = 1500;
-professor1.reajusteSalarialValor = 0;
-professor1.reajusteSalarialPorcentagem = 0;
-professor1.descontoSalarialValor = 0;
-professor1.descontoSalarialPorcentagem = 0;
-professor1.aumentaCargaHoraria = 0;
-professor1.aumentaSalario = 0;
 
 professor1.reajusteSalarialEmValor(350);
 professor1.reajusteSalarialEmPorcentagem(10);

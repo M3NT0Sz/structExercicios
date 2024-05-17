@@ -24,7 +24,7 @@ public struct Produto
         double desconto = this.valor - valor;
         if (desconto < 0)
         {
-            this.valorCupomDescontoValor = "Não foi possivel colocar desconto";
+            this.valorCupomDescontoValor = "0";
         }
         else
         {
@@ -37,7 +37,7 @@ public struct Produto
         double desconto = this.valor - (this.valor * (porcentagem / 100));
         if (desconto < 0)
         {
-            this.valorCupomDescontoPorcentagem = "Não foi possivel colocar desconto";
+            this.valorCupomDescontoPorcentagem = "0";
         }
         else
         {
